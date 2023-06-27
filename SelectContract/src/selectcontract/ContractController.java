@@ -21,6 +21,7 @@ class ContractController {
         this.theView.addPrevListener(new PrevButtonListener());
         this.theView.addBidListener(new BidButtonListener());
         this.theView.addNextListener(new NextButtonListener());
+        setUpDisplay();
     }
 
     class PrevButtonListener implements ActionListener {
